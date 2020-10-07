@@ -1,2 +1,3 @@
 # adriparris.github.io
-Adri Parris Portfolio
+
+Adri Parris
