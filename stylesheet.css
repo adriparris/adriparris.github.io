@@ -134,6 +134,7 @@ h3 {
   left: 0px;
   transition: left 0.4s;
   animation: fade-in ease 2s;
+  max-width: 600px;
 }
 
 .case-study-list-item:hover {
