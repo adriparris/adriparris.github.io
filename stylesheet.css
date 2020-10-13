@@ -14,6 +14,7 @@ p {
 a {
   text-decoration: none;
   color: #4a4e4f;
+  font-weight: 500;
 }
 
 .dark-link {
@@ -64,7 +65,7 @@ h3 {
 
 .subtle {
   color: #a2b1b7;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -99,6 +100,7 @@ h3 {
   margin-right: 20px;
   font-size: 1rem;
   color: #8db9cb;
+  font-weight: 500;
 }
 .menu-item:hover {
   text-decoration: underline;
@@ -109,10 +111,7 @@ h3 {
 
 .menu-item-active {
   text-decoration: underline;
-}
-
-.footer-item {
-  color: #a2b1b7;
+  color: #608997;
 }
 
 .content {
@@ -135,6 +134,7 @@ h3 {
   transition: left 0.4s;
   animation: fade-in ease 2s;
   max-width: 600px;
+  font-weight: 400;
 }
 
 .case-study-list-item:hover {
@@ -147,6 +147,7 @@ h3 {
   color: #8db9cb;
   margin-left: 10px;
   animation: fade-in ease 2.5s;
+  font-weight: 400;
 }
 
 .typing-animation {
