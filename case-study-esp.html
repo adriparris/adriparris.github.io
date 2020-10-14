@@ -11,16 +11,131 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="home-layout">
       <div class="navigation">
         <div>
           <div><a href="./index.html" class="name">Adri Parris</a></div>
           <div><a href="./index.html" class="subtle">UI/UX Designer</a></div>
         </div>
         <div>
+          <a href="./index.html" class="menu-item menu-item-active"
+            >Case studies</a
+          >
           <a href="./about-me.html" class="menu-item">About me</a>
-          <a href="./resume.html" class="menu-item">Resume</a>
+          <a a href="./Adri Parris Resume.pdf" class="menu-item">Resume</a>
         </div>
+      </div>
+
+      <div class="case-study-layout page-layout">
+        <h1>_sePush App</h1>
+        <h3 class="subtle">
+          Mobile app redesign
+        </h3>
+
+        <div class="summary-box">
+          <div>
+            <div class="labels margin-bottom">About the project</div>
+            <p style="max-width: 400px;">
+              EskomSePush is an app used by South Africans to track when they
+              can expect power cuts. This unsolicited redesign was eventually
+              used and adapted by the developers of the app.
+            </p>
+          </div>
+          <div class="divider"></div>
+          <div>
+            <div class="labels">Project date</div>
+            <div class="mb-sml">2020</div>
+            <div class="labels">App download</div>
+            <div>
+              Available on iOS and android
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-lrg">
+          <h2 class="heading">The problem</h2>
+          <p>
+            When Eskom introduced load shedding a few years ago, scheduled power
+            cuts quickly became a natural part of our lives in South Africa. An
+            app, EskomSePush (the name is a play on a rude Afrikaans phrase) was
+            developed to help track when power cuts would happen. It is now an
+            app that many South Africans rely on.
+          </p>
+          <p>
+            Over time, the developers had to add more features and functionality
+            to the app and it gradually became more cluttered and complicated to
+            use. Instead of only four load shedding stages, there are now eight.
+            And then when the pandemic hit our country, the developers started
+            including COVID-19 statistics. Loadshedding was suspended, but South
+            Africans could track the cases daily on the app.
+          </p>
+          <img
+            src="images/esp/esp-old.png"
+            alt="ESP"
+            style="max-width: 100%"
+          />
+          <div class="caption">The original ESP app design</div>
+
+          <p>
+            Thus came the need for a redesign. I isolated the following problems
+            to solve:
+          </p>
+          <ol>
+            <li>
+              Find a way to display the increasingly complicated loadshedding
+              schedules is easy to navigate
+            </li>
+            <li>
+              Find a better typographic hierarchy and use of colour for the app
+            </li>
+            <li>
+              Ensure that the app design is scalable and flexible enough to
+              include any new crisis that might come our way
+            </li>
+          </ol>
+        </div>
+        <div class="mb-lrg">
+          <h2 class="heading">Proposed solution</h2>
+          <p>
+            I initially proposed a menu screen that could be expanded to display
+            numerous crises, such as water restrictions during a drought or
+            information about wild fires. A settings page would allow users to
+            turn notifications on or off.
+          </p>
+          <p>
+            Each section would have a header that is colour coded according to
+            the button on the home screen. The colour scheme is based on our
+            flag, and the feeling of the app is bright and cheerful. I also
+            suggested dropping the word “Eskom” and replacing it with an
+            underscore, as if to suggest that one can insert whatever issue you
+            like into the phrase.
+          </p>
+          <p>
+            To solve the problem of the increasingly complicated load shedding
+            schedules, I proposed horizontally scrolling tiles to navigate
+            through the different phases.
+          </p>
+          <img src="images/esp/esp_concept.png" style="max-width: 66%" alt="ESP"></img>
+          <img src="images/esp/esp_concept_2.png" style="max-width: 100%" alt="ESP"></img>
+        </div>
+
+
+        <div class="mb-lrg">
+            <h2 class="heading">Final implemented design</h2>
+            <p>
+                The developers implemented the colourful headers and split the COVID-19 stats from the load shedding. The side scrolling tiles for the schedule was also implemented, which is my personal favourite change to the app. It has already made my own life a little easier.
+            </p>
+          </div>
+
+          <img src="images/esp/esp-used.png" alt="ESP"></img>
+          <div class="case-study-nav">
+              <a href="./case-study-saa.html" class="case-study-next">
+                <span class="subtle">Read about</span> the Olympic Plane
+                <img src="./images/arrow.svg" class="arrow" />
+              </a>
+            </div>
+
+
       </div>
     </div>
   </body>
