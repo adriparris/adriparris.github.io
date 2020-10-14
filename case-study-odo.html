@@ -11,257 +11,255 @@
   </head>
 
   <body>
-    <div class="home-layout">
-      <div class="navigation">
+    <div class="navigation">
+      <div>
+        <div><a href="./index.html" class="name">Adri Parris</a></div>
+        <div><a href="./index.html" class="subtle">UI/UX Designer</a></div>
+      </div>
+      <div>
+        <a href="./index.html" class="menu-item menu-item-active"
+          >Case studies</a
+        >
+        <a href="./about-me.html" class="menu-item">About me</a>
+        <a a href="./Adri Parris Resume.pdf" class="menu-item">Resume</a>
+      </div>
+    </div>
+
+    <div class="case-study-layout page-layout">
+      <h1>OneDayOnly</h1>
+      <h3 class="subtle">
+        UI/UX Design & development for an e-commerce site
+      </h3>
+
+      <div class="summary-box">
         <div>
-          <div><a href="./index.html" class="name">Adri Parris</a></div>
-          <div><a href="./index.html" class="subtle">UI/UX Designer</a></div>
+          <div class="labels mb-sml">About</div>
+          <p>
+            OneDayOnly is one of South Africa's
+            <a
+              href="https://mybroadband.co.za/news/business/300466-the-most-popular-online-shops-in-south-africa.html#:~:text=By%20far%20the%20most%20popular%20online%20store%20in%20South%20Africa,Makro%2C%20Loot%2C%20and%20OneDayOnly."
+              >most popular online stores</a
+            >. Beginning with customer research, I worked on designs that
+            improved the user experience, overhauled the visual style, and
+            finally participated in the rebuilding of the site's front-end.
+          </p>
         </div>
+        <div class="divider"></div>
         <div>
-          <a href="./index.html" class="menu-item menu-item-active"
-            >Case studies</a
-          >
-          <a href="./about-me.html" class="menu-item">About me</a>
-          <a a href="./Adri Parris Resume.pdf" class="menu-item">Resume</a>
+          <div class="labels">Project date</div>
+          <div class="mb-sml">2018-2020</div>
+          <div class="labels">Website link</div>
+          <div>
+            <a href="https://new.onedayonly.co.za" class="dark-link"
+              >new.onedayonly.co.za</a
+            >
+          </div>
         </div>
       </div>
 
-      <div class="case-study-layout page-layout">
-        <h1>OneDayOnly</h1>
-        <h3 class="subtle">
-          UI/UX Design & development for an e-commerce site
-        </h3>
+      <div class="mb-lrg">
+        <h2 class="heading">The problem</h2>
+        <p>
+          While OneDayOnly has been a popular and successful online store for a
+          number of years, their site’s design has stayed largely the same.
+          Initial research at the start of the project showed that first time
+          users tended to be sceptical of the site’s legitimacy, and many only
+          used the site after recommendations from friends. They also appeared
+          overwhelmed by the cluttered design.
+        </p>
+        <p>
+          One of the strongest features of the OneDayOnly brand is its funny,
+          quirky tone of voice. Some users mentioned that they discovered the
+          site after their friends shared an amusing blurb or social media post
+          written by the marketing department. This presented a real opportunity
+          to draw on the brand’s sense of humour while writing the copy for the
+          website, without detracting from the urgency of grabbing the deals
+          before they ran out.
+        </p>
+        <p>These three objectives were the focus of the redesign:</p>
+        <ol>
+          <li>
+            <a href="#solution-1">
+              The design needed to reassure users that the deals are legitimate
+              and trustworthy</a
+            >
+          </li>
+          <li>
+            <a href="#solution-2"
+              >Since the site revolves around impulse purchases, the journey
+              from the home page to checkout needed to be as frictionless as
+              possible</a
+            >
+          </li>
+          <li>
+            <a href="#solution-3"
+              >Ultimately, the shopping experience needed to be fun, with
+              carefully considered points of delight where appropriate.</a
+            >
+          </li>
+        </ol>
 
-        <div class="summary-box">
+        <img
+          src="./images/odo/old-home.png"
+          alt="ODO new homepage"
+          class="img"
+        />
+        <div class="caption">The original OneDayOnly shop design</div>
+
+        <h3 id="solution-1">
+          1. It’s not a scam: Conveying legitimacy through a cleaner design
+        </h3>
+        <p>
+          One of the simplest ways to create credibility for OneDayOnly was to
+          bring the visual look of the website up to date. By removing the
+          medium-grey background and minimising the noise caused by the busy
+          side bar, the website looked fresh and polished. Increased padding
+          around the product images allowed the layout to breathe, allowing the
+          user to browse the products without feeling overwhelmed by the
+          clutter.
+        </p>
+        <p>
+          Bringing the website’s look and feel up to date was a quick and easy
+          way to gain trust from first time users.
+        </p>
+        <img
+          src="./images/odo/new-home.png"
+          alt="ODO new homepage"
+          class="img"
+        />
+        <div class="caption">The fresh, new look</div>
+
+        <h3 id="solution-2">
+          2. Buying deals against a ticking clock: Reducing friction and
+          cognitive dissonance
+        </h3>
+        <p>
+          OneDayOnly’s deals change at midnight every day, so users tend to
+          browse the website looking for an excuse to buy something they
+          probably do not need. Some users told me that they woke up at 6am
+          every morning to check the site before the best deals were gone.
+        </p>
+        <p>
+          User testing showed that the existing flow was relatively smooth and
+          painless. The site has always had a single-page checkout, which
+          performed well in tests in spite of the fact that it was filled with
+          information. However, there were still some opportunities to tweak the
+          design to save the user time and mental energy.
+        </p>
+        <h3 class="small-heading">Step one: Browse deals</h3>
+
+        <p>
+          The name, description and price of the product is displayed clearly on
+          the home page. Before, users had to hover over each product to see the
+          price.
+        </p>
+        <h3 class="small-heading">Step two: Select a deal</h3>
+        <p>
+          When a deal is added to the cart, a notification appears to show that
+          the product has been added successfully, with an option to check out
+          immediately. Before, the cart would be displayed with an overlay that
+          blocked out the entire page. The user would then be forced to decide
+          between “check out”, “continue shopping” (which returns the user to
+          the homepage), or dismissing the pop up to stay on the product page.
+          The new notification allows the user to opt in to an action, or simply
+          ignore it.
+        </p>
+
+        <div class="flex">
+          <img
+            src="./images/odo/product-old.png"
+            alt="ODO old product page"
+            class="img-sml mr-sml"
+          />
+          <img
+            src="./images/odo/product-new.png"
+            alt="ODO new product page"
+            class="img-sml"
+          />
+        </div>
+        <div class="caption">
+          Left: A confusing cart overlay forces the user to stop and think.<br />
+          Right: This less intrusive notification acts as a nudge to move on.
+        </div>
+
+        <p>
+          The same notification box appears when the product in the user’s cart
+          is selling quickly. This prompts the user to check out as soon as
+          possible.
+        </p>
+        <img src="./images/odo/sell-out-flame.png" alt="ODO" class="img" />
+        <div class="caption">
+          The burning flame is used throughout the site whenever a deal is a hot
+          seller.
+        </div>
+
+        <h3 class="small-heading">Step three: Check out</h3>
+        <p>
+          Finally, the check out page has been simplified. Unnecessary
+          information has been removed, and all actions have been moved to the
+          left hand side of the page. Starting in the top left corner, the user
+          is guided through each step in a logical order.
+        </p>
+
+        <div>
           <div>
-            <div class="labels mb-sml">About</div>
-            <p>
-              OneDayOnly is one of South Africa's
-              <a
-                href="https://mybroadband.co.za/news/business/300466-the-most-popular-online-shops-in-south-africa.html#:~:text=By%20far%20the%20most%20popular%20online%20store%20in%20South%20Africa,Makro%2C%20Loot%2C%20and%20OneDayOnly."
-                >most popular online stores</a
-              >. Beginning with customer research, I worked on designs that
-              improved the user experience, overhauled the visual style, and
-              finally participated in the rebuilding of the site's front-end.
-            </p>
-          </div>
-          <div class="divider"></div>
-          <div>
-            <div class="labels">Project date</div>
-            <div class="mb-sml">2018-2020</div>
-            <div class="labels">Website link</div>
-            <div>
-              <a href="https://new.onedayonly.co.za" class="dark-link"
-                >new.onedayonly.co.za</a
-              >
+            <img
+              src="./images/odo/old-checkout.png"
+              alt="ODO old checkout"
+              class="img mr-sml"
+            />
+            <div class="caption">
+              Original checkout design.
             </div>
+          </div>
+          <div>
+            <img
+              src="./images/odo/new-checkout.jpg"
+              alt="ODO new checkout"
+              class="img"
+            />
+            <div class="caption">New, simplified checkout.</div>
           </div>
         </div>
 
-        <div class="mb-lrg">
-          <h2 class="heading">The problem</h2>
-          <p>
-            While OneDayOnly has been a popular and successful online store for
-            a number of years, their site’s design has stayed largely the same.
-            Initial research at the start of the project showed that first time
-            users tended to be sceptical of the site’s legitimacy, and many only
-            used the site after recommendations from friends. They also appeared
-            overwhelmed by the cluttered design.
-          </p>
-          <p>
-            One of the strongest features of the OneDayOnly brand is its funny,
-            quirky tone of voice. Some users mentioned that they discovered the
-            site after their friends shared an amusing blurb or social media
-            post written by the marketing department. This presented a real
-            opportunity to draw on the brand’s sense of humour while writing the
-            copy for the website, without detracting from the urgency of
-            grabbing the deals before they ran out.
-          </p>
-          <p>These three objectives were the focus of the redesign:</p>
-          <ol>
-            <li>
-              <a href="#solution-1">
-                The design needed to reassure users that the deals are
-                legitimate and trustworthy</a
-              >
-            </li>
-            <li>
-              <a href="#solution-2"
-                >Since the site revolves around impulse purchases, the journey
-                from the home page to checkout needed to be as frictionless as
-                possible</a
-              >
-            </li>
-            <li>
-              <a href="#solution-3"
-                >Ultimately, the shopping experience needed to be fun, with
-                carefully considered points of delight where appropriate.</a
-              >
-            </li>
-          </ol>
+        <h3 id="solution-3">
+          3. Having fun while you shop: Introducing the brand to the site
+        </h3>
+        <p>
+          Aside from the careful use of bold colours, the new website reflects
+          the quirky brand most strongly in its use of copy. All the website’s
+          notifications, prompts and informative sections were rewritten to
+          sound more friendly and - only where appropriate - funny.
+        </p>
 
-          <img
-            src="./images/odo/old-home.png"
-            alt="ODO new homepage"
-            class="img"
-          />
-          <div class="caption">The original OneDayOnly shop design</div>
+        <img src="./images/odo/too-early.png" alt="ODO" class="img" />
+        <img src="./images/odo/cart.png" alt="ODO" class="img-sml" />
+        <div class="caption">
+          The word “trolley” is more commonly used in South Africa, rather than
+          “shopping cart”. The natural language throughout the site adds
+          authenticity.
+        </div>
 
-          <h3 id="solution-1">
-            1. It’s not a scam: Conveying legitimacy through a cleaner design
-          </h3>
-          <p>
-            One of the simplest ways to create credibility for OneDayOnly was to
-            bring the visual look of the website up to date. By removing the
-            medium-grey background and minimising the noise caused by the busy
-            side bar, the website looked fresh and polished. Increased padding
-            around the product images allowed the layout to breathe, allowing
-            the user to browse the products without feeling overwhelmed by the
-            clutter.
-          </p>
-          <p>
-            Bringing the website’s look and feel up to date was a quick and easy
-            way to gain trust from first time users.
-          </p>
-          <img
-            src="./images/odo/new-home.png"
-            alt="ODO new homepage"
-            class="img"
-          />
-          <div class="caption">The fresh, new look</div>
+        <h2 class="heading">Reception</h2>
+        <p>
+          The most common feedback received on the new website has been that
+          “it’s much cleaner” and “it’s much neater”. Essentially, the new
+          design strips away the clutter and hindrances of the old design,
+          providing a starting point for further optimisation of the user
+          experience.
+        </p>
+        <p class="mb-lrg">
+          Future iterations on the design may include more features to encourage
+          fast checkouts, such as the ability add to cart directly from the
+          homepage, filtering of products, and personalised product
+          recommendations for users.
+        </p>
 
-          <h3 id="solution-2">
-            2. Buying deals against a ticking clock: Reducing friction and
-            cognitive dissonance
-          </h3>
-          <p>
-            OneDayOnly’s deals change at midnight every day, so users tend to
-            browse the website looking for an excuse to buy something they
-            probably do not need. Some users told me that they woke up at 6am
-            every morning to check the site before the best deals were gone.
-          </p>
-          <p>
-            User testing showed that the existing flow was relatively smooth and
-            painless. The site has always had a single-page checkout, which
-            performed well in tests in spite of the fact that it was filled with
-            information. However, there were still some opportunities to tweak
-            the design to save the user time and mental energy.
-          </p>
-          <h3 class="small-heading">Step one: Browse deals</h3>
-
-          <p>
-            The name, description and price of the product is displayed clearly
-            on the home page. Before, users had to hover over each product to
-            see the price.
-          </p>
-          <h3 class="small-heading">Step two: Select a deal</h3>
-          <p>
-            When a deal is added to the cart, a notification appears to show
-            that the product has been added successfully, with an option to
-            check out immediately. Before, the cart would be displayed with an
-            overlay that blocked out the entire page. The user would then be
-            forced to decide between “check out”, “continue shopping” (which
-            returns the user to the homepage), or dismissing the pop up to stay
-            on the product page. The new notification allows the user to opt in
-            to an action, or simply ignore it.
-          </p>
-
-          <div class="flex">
-            <img
-              src="./images/odo/product-old.png"
-              alt="ODO old product page"
-              class="img-sml mr-sml"
-            />
-            <img
-              src="./images/odo/product-new.png"
-              alt="ODO new product page"
-              class="img-sml"
-            />
-          </div>
-          <div class="caption">
-            Left: A confusing cart overlay forces the user to stop and think.<br />
-            Right: This less intrusive notification acts as a nudge to move on.
-          </div>
-
-          <p>
-            The same notification box appears when the product in the user’s
-            cart is selling quickly. This prompts the user to check out as soon
-            as possible.
-          </p>
-          <img src="./images/odo/sell-out-flame.png" alt="ODO" class="img" />
-          <div class="caption">
-            The burning flame is used throughout the site whenever a deal is a
-            hot seller.
-          </div>
-
-          <h3 class="small-heading">Step three: Check out</h3>
-          <p>
-            Finally, the check out page has been simplified. Unnecessary
-            information has been removed, and all actions have been moved to the
-            left hand side of the page. Starting in the top left corner, the
-            user is guided through each step in a logical order.
-          </p>
-
-          <div>
-            <div>
-              <img
-                src="./images/odo/old-checkout.png"
-                alt="ODO old checkout"
-                class="img mr-sml"
-              />
-              <div class="caption">
-                Original checkout design.
-              </div>
-            </div>
-            <div>
-              <img
-                src="./images/odo/new-checkout.jpg"
-                alt="ODO new checkout"
-                class="img"
-              />
-              <div class="caption">New, simplified checkout.</div>
-            </div>
-          </div>
-
-          <h3 id="solution-3">
-            3. Having fun while you shop: Introducing the brand to the site
-          </h3>
-          <p>
-            Aside from the careful use of bold colours, the new website reflects
-            the quirky brand most strongly in its use of copy. All the website’s
-            notifications, prompts and informative sections were rewritten to
-            sound more friendly and - only where appropriate - funny.
-          </p>
-
-          <img src="./images/odo/too-early.png" alt="ODO" class="img" />
-          <img src="./images/odo/cart.png" alt="ODO" class="img-sml" />
-          <div class="caption">
-            The word “trolley” is more commonly used in South Africa, rather
-            than “shopping cart”. The natural language throughout the site adds
-            authenticity.
-          </div>
-
-          <h2 class="heading">Reception</h2>
-          <p>
-            The most common feedback received on the new website has been that
-            “it’s much cleaner” and “it’s much neater”. Essentially, the new
-            design strips away the clutter and hindrances of the old design,
-            providing a starting point for further optimisation of the user
-            experience.
-          </p>
-          <p class="mb-lrg">
-            Future iterations on the design may include more features to
-            encourage fast checkouts, such as the ability add to cart directly
-            from the homepage, filtering of products, and personalised product
-            recommendations for users.
-          </p>
-
-          <div class="case-study-nav">
-            <a href="./case-study-esp.html" class="case-study-next">
-              <span class="subtle">Read about</span> EskomSePush
-              <img src="./images/arrow.svg" class="arrow" />
-            </a>
-          </div>
+        <div class="case-study-nav">
+          <a href="./case-study-esp.html" class="case-study-next">
+            <span class="subtle">Read about</span> EskomSePush
+            <img src="./images/arrow.svg" class="arrow" />
+          </a>
         </div>
       </div>
     </div>
