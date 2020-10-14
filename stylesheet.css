@@ -296,7 +296,7 @@ h3 {
     justify-content: flex-start;
   }
   .typing-animation {
-    display: none;
+    display: none !important;
   }
   .page-layout {
     margin: 20px;
